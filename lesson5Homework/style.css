@@ -1,0 +1,22 @@
+h1{
+    display:flex;
+    justify-content:center;
+}
+.images{
+    display: flex;
+    justify-content:center;
+}
+th,td,table{
+    border-collapse: collapse;
+    border: 2px dashed black;
+    padding:10px;
+}
+th{
+    background-color: burlywood;
+}
+td{
+    background-color:blanchedalmond ;
+}
+.input{
+    display:flex;
+}
