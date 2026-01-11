@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Bartle&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    background-image:linear-gradient(to bottom, #151515,#3125CC);
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}   
+#logo{
+    width: 37px;
+    height: 37px;
+    display:flex;
+}
+main{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#musicChasm{
+    color:#E056F6;
+    margin:0;
+    display:flex;
+    align-items: center;
+    padding-left:8px;
+    font-weight: 400;
+}
+#logoName{
+    display:flex;
+}
+.signUpBox{
+    margin-top:100px;
+    border:solid #4D3FFA;
+    padding:50px;
+    padding-bottom: 75px;
+}
+.signUpBox div{
+    margin-bottom: 26px;
+}
+label{
+    color:white;
+    display:block;
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+input{
+    width:230px;
+    height:25px;
+}
+button{
+    background-image:linear-gradient(to bottom,#FFFFFF,#4D3FFA);
+    margin-top:26px;
+    margin-left:80px;
+    width:70px;
+    height: 30px;
+}
