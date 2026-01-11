@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Bartle&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+  background:#212121;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+a{
+    text-decoration: none;
+    color:white;
+    margin:0;
+    padding:30px;
+}
+.navBar{
+    text-align: right;
+}
+.backgroundPhoto{
+    width:100%;
+    height: 100%;
+    background-image: url('./images/background.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+#nameProffesion{
+    color:white;
+    text-align: center;
+    padding: 200px;
+    margin:0;
+}
+#nameProffesion p:first-child{
+    font-size:64px;
+    margin:0;
+}
+#nameProffesion p:nth-child(2){
+    font-size:24px;
+}
+h1{
+    margin:0;
+}
+#socials img{
+    padding:5px;
+}
+.aboutMe img{
+    width: 500px;
+    height: 300px;
+    margin:0;
+    margin-left:100px;
+    border: transparent;
+    border-bottom-right-radius: 24px;
+    border-top-left-radius: 24px;
+}
+.aboutMe{
+    display: flex;
+    margin-top: 100px;
+}
+.aboutContent{
+    padding-left:100px;
+    margin-right:100px;
+}
+.aboutContent p:nth-child(2),.aboutContent p:nth-child(3){
+    font-size: 18px;
+}
+.services {
+    text-align: center;
+    padding: 80px;
+}
+
+.serviceBox {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    gap:40px;
+}
+
+.box {
+    background: #292C36;
+    padding: 30px;
+    width: 280px;
+    border-radius: 8px;
+}
+.services p:first-child, .box p:first-child{
+    font-size:24px;
+}
+.box p:nth-child(2){
+    font-size:18px;
+}
+.portfolio {
+    padding: 80px;
+    text-align: center;
+}
+.projects {
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.project {
+    background: #292C36;
+    padding: 20px;
+    width: 300px;
+    border-radius: 8px;
+}
+
+.projImg img{
+    margin-bottom: 15px;
+    width: 300;
+    height: 283;
+}
+
+.project button {
+    margin-top: 10px;
+    background: #558FFF;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    color:white;
+}
+.contact {
+    background: #292C36;
+    padding: 60px;
+    text-align: center;
+    margin: 80px;
+    border-radius: 8px;
+}
+
+.contact button {
+    margin-top: 20px;
+    padding: 10px 25px;
+    background: #558FFF;
+    border: transparent;
+    border-radius: 4px;
+    color:white;
+}
+footer {
+    text-align: center;
+    padding: 40px;
+    background: #292C36;
+    color: white;
+}
