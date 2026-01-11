@@ -1,0 +1,86 @@
+body{
+    background-color: #1b1b1b;
+    color: #f1f1f1;
+}
+header{
+    text-align: center;
+    text-shadow: 3px 3px 8px black;
+    margin-top: 30px;
+}
+.images{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom:30px;
+}
+
+.images img{
+    width: 220px;
+    height: 150px;
+    border-radius: 25px;
+    transition: transform 0.6s ease;
+}
+.images img:hover{
+    transform:scale(1.5);
+    transform:rotate(25grad);
+}
+.timeline{
+    background: black;
+    border:solid #655e5e;
+    margin:0;
+}
+.timeline p{
+    animation-name: info;
+    animation-timing-function:linear;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    font-size:18px;
+    padding:5px;
+}
+@keyframes info{
+    from{
+        transform: translateX(100%);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+.centerBox{
+    width:360px;
+    background:#2a2a2a;
+    border-radius:12px;
+    box-shadow:0 0 15px 0 black;
+}
+.centeredBox{
+    text-align:center;
+    margin-top:50px;
+    padding:25px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.tables{
+    display: flex;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+}
+table{
+    width: 500px;
+    border-collapse: collapse;
+    background: #2f2f2f;
+}
+.tables table:first-child{
+    margin-right:200px;
+}
+th{
+    background-color: #6b0000;
+    color: white;
+    padding: 15px;
+}
+td{
+    background-color: #444;
+    padding: 10px;
+    text-align: center;
+}
+
