@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Xanh+Mono:ital@0;1&display=swap');
+:root{
+    --text_color:  #f5e6c8;
+    --text_font: "Xanh Mono", monospace;
+    --margin:120px;
+}
+body{
+    background-color: #1e1b18;
+    font-family: var(--text_font);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header h1{
+    color: var(--text_color);
+    margin-left:20px;
+}
+.header nav{
+    display: flex;
+    gap:10px;
+    margin-right:20px;
+}
+.header nav a{
+    color: var(--text_color);
+    text-decoration: none;
+}
+.header nav a:hover{
+    color: #f8d898;
+}
+main{
+    background-image: url(./images/img1.png);
+    background-size: cover;
+    box-sizing:border-box;
+    color: var(--text_color);
+    height:684px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main p:first-child{
+    font-size: 60px;
+    margin-bottom:0;
+}
+main p:nth-child(2){
+    font-size: 30px;
+}
+/* .photoSlider{
+    display:none;
+} */
+.firstPage{
+    margin-top:100px;
+    display:flex;
+    justify-content: space-between;
+    gap:50px;
+ }
+ .firstPageText{
+    color:var(--text_color);
+    margin-right: var(--margin);
+ }
+ .firstPageImg img{
+    height:250px;
+    width:400px;
+    margin-left: var(--margin);
+ }
+ .secondPage{
+    margin:var(--margin);
+ }
+ .secondPageImg{
+    display:flex;
+    justify-content: space-between;
+    gap:20px;
+}
+ .secondPageImg img{
+    height:200px;
+}
+.secondPageHead{
+    color:var(--text_color);
+    text-align:center;
+}
+.footer{
+    display:flex;
+    justify-content: space-between;
+    margin:var(--margin);
+    color: var(--text_color);
+}
+.footer a{
+    text-decoration:none;
+    color: var(--text_color);
+}
+.box1, .box2, .box3{
+    width: 300px;
+}
+.line{
+    border: solid 10px brown;
+    display:block;
+}
+.footerBottom{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 13px;
+    color: #9c8f6b;
+}
+
+
